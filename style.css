@@ -43,6 +43,7 @@ body::before {
 
 body {
   background: var(--bc-body);
+  height: 100vh;
 }
 
 .page {
@@ -185,8 +186,6 @@ img {
     flex-direction: column;
     text-align: center;
     position: relative;
-
-    height: 100vh;
   }
 
   header {
