@@ -43,7 +43,7 @@ body::before {
 
 body {
   background: var(--bc-body);
-  height: 100vh;
+  height: 100%;
 }
 
 .page {
@@ -178,6 +178,7 @@ img {
   }
   .page {
     display: flex;
+    height: 100vh;
   }
 
   .left {
